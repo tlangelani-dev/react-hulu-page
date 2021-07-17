@@ -4,6 +4,7 @@ import SubHeader from './SubHeader';
 import Categories from './Categories';
 import StreamLive from './StreamLive';
 import LiveSports from './LiveSports';
+import Footer from './Footer';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Categories />
             <StreamLive />
             <LiveSports />
+            <Footer />
         </div>
     )
 }
