@@ -1,0 +1,73 @@
+.login-modal {
+    display: none;
+    &.show {
+        display: block;
+    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    @keyframes modalopen {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .modal-box {
+        margin: 10% auto;
+        width: 400px;
+        background: #fff;
+        color: #333;
+        position: relative;
+        animation: modalopen 1s;
+        .modal-body {
+            padding: 36px;
+            h3 {
+                font-weight: bold;
+            }
+            .btn {
+                width: 100%;
+                margin-top: 30px;
+            }
+            .form-control {
+                margin: 20px 0;
+                label {
+                    display: block;
+                    text-transform: uppercase;
+                }
+                input {
+                    width: 100%;
+                    border: 2px #ccc solid;
+                    border-radius: 5px;
+                    height: 46px;
+                    padding: 6px 12px;
+                }
+            }
+        }
+    }
+    .close {
+        cursor: pointer;
+        height: 23px;
+        width: 23px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .modal-footer {
+        background: #f7f7f9;
+        color: #333;
+        padding: 20px 0;
+        border-top: #eee 1px solid;
+        text-align: center;
+    }
+    .modal-footer {
+        a {
+            color: steelblue;
+        }
+    }
+}
