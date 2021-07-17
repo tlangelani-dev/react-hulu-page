@@ -18,7 +18,7 @@ const LoginModal = ({showModal, setShowModal}) => {
                     </form>
                 </div>
                 <div className='modal-footer'>
-                    <p>Don't have an account? <a href='#'>Start your free trial</a></p>
+                    <p>Don't have an account? <a href='/'>Start your free trial</a></p>
                 </div>
                 <img className='close' src='/img/close.svg' alt='close' onClick={() => setShowModal(false)} />
             </div>
