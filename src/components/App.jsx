@@ -1,7 +1,9 @@
+import '../sass/style.scss';
 import Header from './Header';
 import SubHeader from './SubHeader';
 import Categories from './Categories';
-import '../sass/style.scss';
+import StreamLive from './StreamLive';
+import LiveSports from './LiveSports';
 
 const App = () => {
     return (
@@ -9,6 +11,8 @@ const App = () => {
             <Header />
             <SubHeader />
             <Categories />
+            <StreamLive />
+            <LiveSports />
         </div>
     )
 }
