@@ -1,29 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html, body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-a {
-    color: #fff;
-    text-decoration: none;
-    &:hover {
-        color: #ccc;
-    }
-}
-ul {
-    list-style-type: none;
-}
-img {
-    width: 100%;
-}
-
+// components
+@import './components/global';
 @import './components/header';
+
+// layouts
+@import './layouts/mobile';
