@@ -1,5 +1,6 @@
 import Header from './Header';
 import SubHeader from './SubHeader';
+import Categories from './Categories';
 import '../sass/style.scss';
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
         <div className='app'>
             <Header />
             <SubHeader />
+            <Categories />
         </div>
     )
 }
